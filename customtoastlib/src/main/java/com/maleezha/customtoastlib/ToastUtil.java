@@ -9,7 +9,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class ToastUtil {
-    public void showCustomToast(Context context, String message, int iconResId) {
+    public static void showCustomToast(Context context, String message, int iconResId) {
         LayoutInflater inflater = LayoutInflater.from(context);
         View layout = inflater.inflate(R.layout.custom_toast, null);
 
