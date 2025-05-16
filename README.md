@@ -1,2 +1,0 @@
-# CustomToastLib
-Custom Toast Library
