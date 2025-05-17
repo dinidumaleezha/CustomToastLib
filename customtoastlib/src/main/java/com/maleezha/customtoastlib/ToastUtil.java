@@ -28,11 +28,12 @@ public class ToastUtil {
 
         TextView text = layout.findViewById(R.id.toast_text);
         ImageView icon = layout.findViewById(R.id.toast_icon);
-        RelativeLayout methodColor = layout.findViewById(R.id.methodColor);
+        RelativeLayout bgColor = layout.findViewById(R.id.methodColor);
+        bgColor.setBackgroundColor(ContextCompat.getColor(context, bgColorResId));
+
 
         text.setText(message);
         icon.setImageResource(iconResId);
-        methodColor.setBackgroundColor(ContextCompat.getColor(context, bgColorResId));
 
         Toast toast = new Toast(context);
         toast.setDuration(Toast.LENGTH_LONG);
