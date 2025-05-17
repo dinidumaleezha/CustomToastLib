@@ -1,5 +1,6 @@
 package com.maleezha.customtoastlib;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -28,7 +29,7 @@ public class ToastUtil {
 
         TextView text = layout.findViewById(R.id.toast_text);
         ImageView icon = layout.findViewById(R.id.toast_icon);
-        RelativeLayout bgColor = layout.findViewById(R.id.methodColor);
+        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) RelativeLayout bgColor = layout.findViewById(R.id.methodColor);
         bgColor.setBackgroundColor(ContextCompat.getColor(context, bgColorResId));
 
 
