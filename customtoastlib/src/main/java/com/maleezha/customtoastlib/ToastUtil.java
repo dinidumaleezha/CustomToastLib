@@ -9,6 +9,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.core.content.ContextCompat;
+
 public class ToastUtil {
 
 //ToastUtil.success(this, "Saved successfully!");
@@ -30,6 +32,7 @@ public class ToastUtil {
 
         text.setText(message);
         icon.setImageResource(iconResId);
+        methodColor.setBackgroundColor(ContextCompat.getColor(context, bgColorResId));
 
         Toast toast = new Toast(context);
         toast.setDuration(Toast.LENGTH_LONG);
