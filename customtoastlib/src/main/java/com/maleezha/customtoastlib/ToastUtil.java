@@ -26,7 +26,7 @@ public class ToastUtil {
         if (context == null || message == null) return;
 
         @SuppressLint("InflateParams")
-        View layout = LayoutInflater.from(context).inflate(R.layout.custom_toast, null);
+        View layout = LayoutInflater.from(context).inflate(R.layout.custom_toast_v2, null);
 
         TextView text = layout.findViewById(R.id.toast_text);
         ImageView icon = layout.findViewById(R.id.toast_icon);
