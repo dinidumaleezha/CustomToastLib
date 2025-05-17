@@ -16,7 +16,7 @@ public class ToastUtil {
 //ToastUtil.warning(this, "Check your input.");
 //ToastUtil.info(this, "Updates are available.");
 //ToastUtil.custom(this, "Custom style!", R.drawable.custom_icon);
-    //ToastUtil.custom(this, "Custom style!", R.drawable.custom_icon, R.color.primaryColor);
+//ToastUtil.custom(this, "Custom style!", R.drawable.custom_icon, R.color.primaryColor);
 
 
     // ✅ Common method for displaying the toast
