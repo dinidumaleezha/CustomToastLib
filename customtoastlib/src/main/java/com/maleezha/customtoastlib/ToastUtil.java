@@ -69,7 +69,7 @@ public class ToastUtil {
     }
 
     // ✅ Custom with duration control
-    public static void custom(Context context, String message, int iconResId, int bgColorResId, int duration) {
+    public static void customDurationControl(Context context, String message, int iconResId, int bgColorResId, int duration) {
         show(context, message, iconResId, bgColorResId, duration);
     }
 }
