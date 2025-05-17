@@ -13,6 +13,13 @@ import android.widget.Toast;
 import androidx.core.content.ContextCompat;
 
 public class ToastUtil {
+//ToastUtil.success(this, "Data saved successfully!");
+//ToastUtil.error(this, "Failed to load data!");
+//ToastUtil.warning(this, "Please check your input!");
+//ToastUtil.info(this, "New update available.");
+//ToastUtil.custom(this, "Stylish!", R.drawable.custom_icon, R.color.customColor);
+//ToastUtil.custom(this, "Short custom!", R.drawable.custom_icon, R.color.customColor, Toast.LENGTH_SHORT);
+
 
     // 🔁 Internal reusable method
     private static void show(Context context, String message, int iconResId, int bgColorResId, int duration) {
