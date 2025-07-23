@@ -58,7 +58,7 @@ You can call this from your `Activity` or `Fragment`.
 ---
 
 ## 🎥 Demo Video
-[![Watch the video](https://github.com/dinidumaleezha/CustomToastLib/raw/main/assets/preview-video.png)](https://github.com/dinidumaleezha/CustomToastLib/raw/main/assets/demo.mp4)
+[![Watch the video](https://github.com/dinidumaleezha/CustomToastLib/raw/main/assets/img.png)](https://github.com/dinidumaleezha/CustomToastLib/raw/main/assets/video.mp4)
 
 ---
 
