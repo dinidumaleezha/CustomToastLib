@@ -57,9 +57,8 @@ You can call this from your `Activity` or `Fragment`.
 
 ---
 
-## 🖼️ Preview
-
-![Custom Toast Preview](https://github.com/dinidumaleezha/CustomToastLib/assets/example-toast-preview.png)
+## 🎥 Demo Video
+[![Watch the video](https://github.com/dinidumaleezha/CustomToastLib/raw/main/assets/preview-video.png)](https://github.com/dinidumaleezha/CustomToastLib/raw/main/assets/demo.mp4)
 
 ---
 
