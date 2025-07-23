@@ -20,7 +20,7 @@ Then, add this to your app-level `build.gradle` dependencies:
 
 ```gradle
 dependencies {
-    implementation 'com.github.dinidumaleezha:CustomToastLib:v1.0.0'
+    implementation 'com.github.dinidumaleezha:CustomToastLib:v1.1.1'
 }
 ```
 
