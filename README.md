@@ -29,11 +29,22 @@ dependencies {
 ## ⚙️ Usage
 
 ```java
-ToastUtil.showCustomToast(
-    context,
-    "Custom toast shown!",
-    R.drawable.done_success_icon
-);
+ToastUtil.success(this, "Data saved successfully!");
+```
+```java
+ToastUtil.error(this, "Failed to load data!");
+```
+```java
+ToastUtil.warning(this, "Please check your input!");
+```
+```java
+ToastUtil.info(this, "New update available.");
+```
+```java
+ToastUtil.custom(this, "Stylish!", R.drawable.custom_icon, R.color.customColor);
+```
+```java
+ToastUtil.custom(this, "Short custom!", R.drawable.custom_icon, R.color.customColor, Toast.LENGTH_SHORT);
 ```
 
 You can call this from your `Activity` or `Fragment`.
