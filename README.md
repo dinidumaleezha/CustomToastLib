@@ -20,7 +20,7 @@ Then, add this to your app-level `build.gradle` dependencies:
 
 ```gradle
 dependencies {
-    implementation 'com.github.dinidumaleezha:CustomToastLib:v1.0.0'
+    implementation 'com.github.dinidumaleezha:CustomToastLib:v1.1.1'
 }
 ```
 
@@ -28,21 +28,37 @@ dependencies {
 
 ## ⚙️ Usage
 
+`Success Toast`
 ```java
-ToastUtil.showCustomToast(
-    context,
-    "Custom toast shown!",
-    R.drawable.done_success_icon
-);
+ToastUtil.success(this, "Data saved successfully!");
+```
+`Error Toast`
+```java
+ToastUtil.error(this, "Failed to load data!");
+```
+`Warning Toast`
+```java
+ToastUtil.warning(this, "Please check your input!");
+```
+`Info Toast`
+```java
+ToastUtil.info(this, "New update available.");
+```
+`Custom Toast`
+```java
+ToastUtil.custom(this, "Stylish!", R.drawable.custom_icon, R.color.customColor);
+```
+`Custom Toast`
+```java
+ToastUtil.custom(this, "Short custom!", R.drawable.custom_icon, R.color.customColor, Toast.LENGTH_SHORT);
 ```
 
 You can call this from your `Activity` or `Fragment`.
 
 ---
 
-## 🖼️ Preview
-
-![Custom Toast Preview](https://github.com/dinidumaleezha/CustomToastLib/assets/example-toast-preview.png)
+## 🎥 Demo Video
+[![Watch the video](https://github.com/dinidumaleezha/CustomToastLib/raw/main/assets/preview-video.png)](https://github.com/dinidumaleezha/CustomToastLib/raw/main/assets/demo.mp4)
 
 ---
 
