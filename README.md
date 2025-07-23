@@ -28,27 +28,27 @@ dependencies {
 
 ## ⚙️ Usage
 
-Success
+`Success Toast`
 ```java
 ToastUtil.success(this, "Data saved successfully!");
 ```
-Error
+`Error Toast`
 ```java
 ToastUtil.error(this, "Failed to load data!");
 ```
-Warning
+`Warning Toast`
 ```java
 ToastUtil.warning(this, "Please check your input!");
 ```
-Info
+`Info Toast`
 ```java
 ToastUtil.info(this, "New update available.");
 ```
-Custom
+`Custom Toast`
 ```java
 ToastUtil.custom(this, "Stylish!", R.drawable.custom_icon, R.color.customColor);
 ```
-Custom
+`Custom Toast`
 ```java
 ToastUtil.custom(this, "Short custom!", R.drawable.custom_icon, R.color.customColor, Toast.LENGTH_SHORT);
 ```
